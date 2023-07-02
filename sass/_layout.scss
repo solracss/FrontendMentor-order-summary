@@ -83,7 +83,13 @@ body {
 	color: $blue;
 	font-weight: $fw-semi-bold;
 	text-decoration: underline;
+	transition: color 0.3s;
+	&:hover {
+		color: $violet;
+		text-decoration: none;
+	}
 }
+
 .btn {
 	font-weight: $fw-bold;
 	font-size: rem(15px);
@@ -94,18 +100,25 @@ body {
 	background: $blue;
 	border-radius: 11px;
 	color: $white;
-
 	box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+	transition: background 0.3s;
+	&:hover {
+		background: $violet;
+	}
 }
 
 .btn-cancel {
 	margin-top: 24px;
 	background: none;
 	color: $gray;
+	transition: color 0.3s;
+	&:hover {
+		color: $dark-blue;
+	}
 }
 
-// @media (min-width: 376px) {
-// 	body {
-// 		background: url("../images/pattern-background-desktop.svg") no-repeat;
-// 	}
-// }
+@media (min-width: 376px) {
+	body {
+		background-image: url("../images/pattern-background-desktop.svg");
+	}
+}

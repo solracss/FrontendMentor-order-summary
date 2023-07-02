@@ -138,6 +138,11 @@ body {
     color: #382ae1;
     font-weight: 700;
     text-decoration: underline;
+    transition: color 0.3s;
+}
+.change-plan:hover {
+    color: #766cf1;
+    text-decoration: none;
 }
 
 .btn {
@@ -151,10 +156,24 @@ body {
     border-radius: 11px;
     color: #fff;
     box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+    transition: background 0.3s;
+}
+.btn-proceed:hover {
+    background: #766cf1;
 }
 
 .btn-cancel {
     margin-top: 24px;
     background: none;
     color: #717fa6;
+    transition: color 0.3s;
+}
+.btn-cancel:hover {
+    color: #1f2e55;
+}
+
+@media (min-width: 376px) {
+    body {
+        background-image: url("../images/pattern-background-desktop.svg");
+    }
 }/*# sourceMappingURL=main.css.map */
