@@ -62,8 +62,26 @@ body {
 }
 
 .order-subscription-plan {
+	display: flex;
+	align-items: center;
 	margin: 24px;
-	// padding: 0 24px;
+	padding: 17px 16px 16px;
 	background-color: $pale-blue;
 	border-radius: 11px;
+}
+
+.order-plan-details {
+	font-size: rem(14px);
+}
+
+.order-plan-name {
+	color: $dark-blue;
+	font-weight: $fw-bold;
+}
+
+.change-plan {
+	font-size: rem(13px);
+	color: $blue;
+	font-weight: $fw-semi-bold;
+	text-decoration: underline;
 }
