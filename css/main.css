@@ -82,7 +82,7 @@ body {
     overflow: hidden;
 }
 
-.oreder-content::before {
+.order-content::before {
     content: "";
     position: absolute;
     top: 0;
@@ -93,7 +93,7 @@ body {
     height: 10.4375rem;
 }
 
-.oreder-content {
+.order-content {
     padding: 192px 0 32px;
     text-align: center;
 }
@@ -175,5 +175,40 @@ body {
 @media (min-width: 376px) {
     body {
         background-image: url("../images/pattern-background-desktop.svg");
+    }
+}
+@media (min-width: 576px) {
+    .order-container {
+        max-width: 450px;
+    }
+    .order-content::before {
+        height: 13.75rem;
+    }
+    .order-content {
+        padding: 265px 0 48px;
+        text-align: center;
+    }
+    .order-summary {
+        padding: 0 48px;
+    }
+    .order-summary h1 {
+        font-size: 1.75rem;
+    }
+    .order-description {
+        margin-top: 17px;
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+    .order-subscription-plan {
+        display: flex;
+        align-items: center;
+        margin: 20px 48px 32px;
+        padding: 25px 24px;
+    }
+    .order-plan-details {
+        font-size: 1rem;
+    }
+    .change-plan {
+        font-size: 0.875rem;
     }
 }/*# sourceMappingURL=main.css.map */
