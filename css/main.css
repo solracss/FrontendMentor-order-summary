@@ -68,9 +68,8 @@ body {
     font-family: "Red Hat Display", sans-serif;
     font-size: 1rem;
     color: #717fa6;
+    background: url("../images/pattern-background-mobile.svg") no-repeat;
     background-color: #e0e8ff;
-    background-image: url("../images/pattern-background-mobile.svg");
-    background-repeat: no-repeat;
 }
 
 .order-container {
@@ -95,9 +94,7 @@ body {
 }
 
 .oreder-content {
-    display: flex;
-    flex-direction: column;
-    padding-top: 192px;
+    padding: 192px 0 32px;
     text-align: center;
 }
 
@@ -141,4 +138,23 @@ body {
     color: #382ae1;
     font-weight: 700;
     text-decoration: underline;
+}
+
+.btn {
+    font-weight: 900;
+    font-size: 0.9375rem;
+}
+
+.btn-proceed {
+    padding: 15px 65px;
+    background: #382ae1;
+    border-radius: 11px;
+    color: #fff;
+    box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+}
+
+.btn-cancel {
+    margin-top: 24px;
+    background: none;
+    color: #717fa6;
 }/*# sourceMappingURL=main.css.map */

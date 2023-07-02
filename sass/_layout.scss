@@ -11,9 +11,8 @@ body {
 	font-family: $ff-base;
 	font-size: rem(16px);
 	color: $gray;
+	background: url("../images/pattern-background-mobile.svg") no-repeat;
 	background-color: $background;
-	background-image: url("../images/pattern-background-mobile.svg");
-	background-repeat: no-repeat;
 }
 
 .order-container {
@@ -38,9 +37,9 @@ body {
 }
 
 .oreder-content {
-	display: flex;
-	flex-direction: column;
-	padding-top: 192px;
+	// display: flex;
+	// flex-direction: column;
+	padding: 192px 0 32px;
 	text-align: center;
 }
 
@@ -85,3 +84,28 @@ body {
 	font-weight: $fw-semi-bold;
 	text-decoration: underline;
 }
+.btn {
+	font-weight: $fw-bold;
+	font-size: rem(15px);
+}
+
+.btn-proceed {
+	padding: 15px 65px;
+	background: $blue;
+	border-radius: 11px;
+	color: $white;
+
+	box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+}
+
+.btn-cancel {
+	margin-top: 24px;
+	background: none;
+	color: $gray;
+}
+
+// @media (min-width: 376px) {
+// 	body {
+// 		background: url("../images/pattern-background-desktop.svg") no-repeat;
+// 	}
+// }
