@@ -63,6 +63,7 @@ body {
 .order-subscription-plan {
 	display: flex;
 	align-items: center;
+	gap: 20px;
 	margin: 24px;
 	padding: 17px 16px 16px;
 	background-color: $pale-blue;
@@ -79,6 +80,7 @@ body {
 }
 
 .change-plan {
+	margin-left: auto;
 	font-size: rem(13px);
 	color: $blue;
 	font-weight: $fw-semi-bold;
