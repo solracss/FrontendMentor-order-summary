@@ -39,13 +39,8 @@ body {
 	height: rem(167px);
 }
 
-.order-content {
-	padding: 192px 0 32px;
-	text-align: center;
-}
-
 .order-summary {
-	padding: 0 32px;
+	padding: 0 8px;
 }
 
 .order-summary h1 {
@@ -64,14 +59,14 @@ body {
 .order-subscription-plan {
 	display: flex;
 	align-items: center;
-	gap: 20px;
-	margin: 24px;
+	margin: 24px 0;
 	padding: 17px 16px 16px;
 	background-color: $pale-blue;
 	border-radius: 11px;
 }
 
 .order-plan-details {
+	padding-left: 20px;
 	font-size: rem(14px);
 }
 
@@ -99,7 +94,8 @@ body {
 }
 
 .btn-proceed {
-	padding: 15px 65px;
+	padding: 15px 64px;
+	padding-right: 65px;
 	background: $blue;
 	border-radius: 11px;
 	color: $white;
