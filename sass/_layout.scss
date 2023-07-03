@@ -28,7 +28,7 @@ body {
 	text-align: center;
 }
 
-.order-summary::before {
+.order-container::before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -40,16 +40,13 @@ body {
 }
 
 .order-summary {
-	padding: 0 8px;
-}
-
-.order-summary h1 {
 	color: $dark-blue;
 	font-weight: $fw-bold;
 	font-size: rem(22px);
 }
 
 .order-description {
+	padding: 0 8px;
 	margin-top: 16px;
 	font-size: rem(15px);
 	font-weight: $fw-regular;
