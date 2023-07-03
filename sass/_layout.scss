@@ -12,6 +12,7 @@ body {
 	font-size: rem(16px);
 	color: $gray;
 	background: url("../images/pattern-background-mobile.svg") no-repeat;
+	background-size: contain;
 	background-color: $background;
 }
 
@@ -37,8 +38,6 @@ body {
 }
 
 .order-content {
-	// display: flex;
-	// flex-direction: column;
 	padding: 192px 0 32px;
 	text-align: center;
 }

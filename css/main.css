@@ -69,6 +69,7 @@ body {
     font-size: 1rem;
     color: #717fa6;
     background: url("../images/pattern-background-mobile.svg") no-repeat;
+    background-size: contain;
     background-color: #e0e8ff;
 }
 
